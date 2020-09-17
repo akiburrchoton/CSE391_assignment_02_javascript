@@ -1,0 +1,244 @@
+body{
+    background: #0F2027; 
+background-image: -webkit-linear-gradient(to right, #292f3c, #2d3248, #353552, #40375c, #4e3763);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #292f3c, #2d3248, #353552, #40375c, #4e3763); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+margin: 0;
+padding: 0;
+}
+
+h1,h2,h3,h4,h5,h6,li{
+    color: #c8e52b;
+    font-family: montserrat, sans-serif;
+    line-height: 1.5em;
+}
+p,span{
+    color: #fff;
+    font-size: 17px;
+    line-height: 1.5em;
+    font-family: montserrat, sans-serif;
+}
+
+a{
+    font-family: montserrat, sans-serif;
+    text-decoration: none;
+}
+
+.slider{
+    margin: 0 auto;
+    padding: 0;
+    position: relative;
+    text-align: center;
+    height: 100vh;
+}
+
+.bg-img{
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+.bg-img .overlay{
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    opacity: .8;
+    background: #1c1d21;
+}
+
+.home-content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.name{
+    color: #ffffff;
+    font-size: 50px;
+}
+
+.para{
+    color: #fff;
+}
+
+.white-btn{
+    background: #a4bb22;
+    border: none;
+    color: #fff;
+    padding: 15px 35px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition: all .3s;
+}
+.white-btn a{
+    text-decoration: none;  
+}
+
+
+.white-btn:hover{
+    color: #000;
+    background: #c8e52b;
+}
+
+.wrapper{
+    margin: 50px 0;
+}
+.wrapper .title-sum{
+    text-align: center;
+}
+
+
+.container{
+    margin: 50px 200px;
+    width: 70%;
+    text-align: center;
+    display: inline-flex;
+}
+
+.hero{
+    text-align: center;
+    display: block;
+
+}
+
+.favorite-links a{
+    color: #c8e52b;
+}
+
+.personal-info{
+    width: 100%;
+    display: inline-flex;
+}
+.per-content{
+    width: 70%;
+    margin-right: 20px;
+}
+
+.personal-info p{
+    text-align: justify;
+}
+
+.my-image{
+    width: 30%;
+    margin: 45px 10px;
+    background: url(../img/my1.JPG);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    height: 225px;
+}
+.personal-info p a{
+    color: #faffe1;
+    font-weight: 700;
+}
+.personal-info p a:hover{
+    color: #eaff71;
+    font-weight: 700;
+}
+
+.table{
+    color: #c8e52b;
+}
+
+
+.quoteBox{
+    width: 90%;
+    background: #6f6f6f;    
+    padding: 20px 15px;
+    margin: 0 15px;
+    border: 2px solid #18b5cc;
+    border-radius: 5px;
+}
+
+.colorPicker button{
+    padding: 10px;
+    margin: 0 4px;
+    border: 0;
+    border-radius: 3px;
+}
+.colorPicker{
+    width: 10%;
+}
+.colorPicker :nth-child(1){
+    background: #cc8084;
+    border: 2px solid #6eacb7;
+}
+.colorPicker :nth-child(2){
+    background: #a1bab9;
+    border: 2px solid #f7e0cf;
+}
+.colorPicker :nth-child(3){
+    background: #292f3c;
+    border: 2px solid #68988b;
+}
+.colorPicker :nth-child(4){
+    background: #f9ee82;
+    border: 2px solid #803002;
+}
+
+
+/* hero css */
+.hero input, select, span{
+    border: 2px solid #97b300;
+    background: #f5ffc1;
+    padding: 15px 40px;
+    border-radius: 10px;
+    font-size: 16px;
+    color: #000;
+}
+
+/* SUM AVERAGE */
+.sum_avrg{
+    text-align: center;
+    display: block;
+
+}
+.sum_avrg input, select{
+    border: 2px solid #97b300;
+    background: #f5ffc1;
+    padding: 15px 40px;
+    border-radius: 10px;
+    font-size: 16px;
+    color: #000;
+}
+
+.sum_avrg button{
+    border: 2px solid #627400;
+    background: #c8e52b;
+    padding: 15px 40px;
+    border-radius: 10px;
+    font-size: 16px;
+    color: #000;
+}
+
+
+#series{
+    
+    text-align: center;
+    display: block;
+}
+.title-sum{
+    margin-top: 80px;
+}
+
+#series input{
+    border: 2px solid #97b300;
+    background: #f5ffc1;
+    padding: 15px 40px;
+    border-radius: 10px;
+    font-size: 16px;
+    color: #000;
+    text-align: center;
+}
